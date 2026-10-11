@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" data-lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ghost in the PC: clap three times, something wakes up</title>
+<meta name="description" content="A harmless talking ghost for your Windows PC. Clap three times, speak Roman Urdu, Urdu or English, and it answers in the same language. Offline. No audio saved.">
+<meta property="og:title" content="Ghost in the PC"><meta property="og:description" content="Clap three times. Something wakes up."><meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="top"><a class="brand" href="#top"><img src="favicon.svg" width="28" height="28" alt=""> Ghost in the PC</a>
+  <nav><a href="#demo" data-t="nav_demo">Demo</a><a href="#features" data-t="nav_features">Features</a><a href="#privacy" data-t="nav_privacy">Privacy</a><a href="#download" data-t="nav_download">Download</a>
+  <span class="lang" role="group" aria-label="Language"><button data-set="en" class="on">EN</button><button data-set="rur">Roman Urdu</button><button data-set="ur">اردو</button></span></nav></header>
+<main id="top">
+<section class="hero"><div class="ghostbox" aria-hidden="true"><svg viewBox="0 0 160 200" class="g"><defs><linearGradient id="gb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#c9dcff"/></linearGradient></defs>
+  <path d="M20 100 C20 38 48 10 80 10 C112 10 140 38 140 100 V172 Q128 154 116 172 T92 172 T68 172 T44 172 T20 172 Z" fill="url(#gb)" stroke="#bcd3ff" stroke-width="2"/>
+  <ellipse class="eye" cx="60" cy="88" rx="12" ry="16" fill="#1a1f2e"/><ellipse class="eye" cx="100" cy="88" rx="12" ry="16" fill="#1a1f2e"/><circle cx="64" cy="82" r="4" fill="#fff"/><circle cx="104" cy="82" r="4" fill="#fff"/>
+  <ellipse cx="42" cy="110" rx="9" ry="5" fill="#ffb3c7" opacity=".6"/><ellipse cx="118" cy="110" rx="9" ry="5" fill="#ffb3c7" opacity=".6"/><path d="M68 112 Q80 126 92 112" fill="none" stroke="#1a1f2e" stroke-width="3" stroke-linecap="round"/></svg></div>
+  <h1 data-t="h1">Clap three times.<br>Something wakes up.</h1>
+  <p class="lead" data-t="lead">A friendly ghost for your Windows PC. It greets you, answers in the language you speak (Roman Urdu, Urdu or English) and can tell you the time or find your files. Works offline.</p>
+  <p><a class="btn big" id="dl1" href="#download" data-t="dl_btn">Download for Windows</a></p>
+  <p class="small" data-t="hero_small">Windows 10/11 x64 · free · prank / entertainment</p></section>
+
+<section id="demo"><h2 data-t="demo_h">Try it (no microphone used here)</h2><p data-t="demo_p">Press Clap, then pick a question. Notice the ghost replies in the same language you chose.</p>
+  <div class="demo"><div class="stage" id="stage"><div class="dghost" id="dghost" aria-hidden="true">&#128123;</div><div class="bubble" id="bubble" hidden></div></div>
+  <div class="ctrl"><button class="btn" id="clap" data-t="clap">&#128079; Clap 3 times</button><div id="chips" hidden></div></div></div></section>
+
+<section id="features"><h2 data-t="feat_h">What it does</h2><div class="cards">
+  <article><h3 data-t="f1h">Three-clap wake-up</h3><p data-t="f1p">Lives quietly in the tray. Three claps and the ghost fades in. Click it, press Esc or say "jao" to send it away.</p></article>
+  <article><h3 data-t="f2h">Speaks your language</h3><p data-t="f2p">Roman Urdu, Urdu or English, by voice or typing. The reply always matches what you used.</p></article>
+  <article><h3 data-t="f3h">Time, timers, PC info</h3><p data-t="f3p">"Kitne baje hain?", "das minute baad yaad dilana", battery and RAM, jokes, and a harmless scare.</p></article>
+  <article><h3 data-t="f4h">Finds files (read-only)</h3><p data-t="f4p">Asks about names, sizes and dates in folders you allow. It never opens, changes or deletes anything.</p></article></div></section>
+
+<section><h2 data-t="how_h">How it works</h2><ol class="steps"><li data-t="s1">Download the ZIP and Extract All.</li><li data-t="s2">Open the folder and double-click <b>Ghost in the PC.exe</b>, then follow the 5-step wizard.</li><li data-t="s3">Clap three times. Say hello.</li></ol></section>
+
+<section id="privacy"><h2 data-t="priv_h">Privacy and safety promise</h2><ul class="ticks">
+  <li data-t="p1">Listens only on your PC. No audio is saved or uploaded.</li><li data-t="p2">No network access in the app. No tracking, no telemetry.</li><li data-t="p3">File answers are read-only metadata, only in folders you tick.</li>
+  <li data-t="p4">No admin rights, no services, no registry tricks. Quit any time from the tray.</li><li data-t="p5">Never pretends your PC is hacked or infected. Gentle by default.</li></ul></section>
+
+<section id="download"><h2 data-t="dl_h">Download</h2>
+  <div class="warn"><b data-t="warn_h">Download THIS file:</b> <code>GhostInThePC-Windows-x64.zip</code><br><span data-t="warn_p">Do NOT download "Source code (zip)". That is only the code, not the app.</span></div>
+  <p><a class="btn big" id="dl2" href="#"><span data-t="dl_btn">Download for Windows</span></a></p>
+  <p class="small"><span data-t="size">Size</span>: <span id="size"></span> · SHA-256: <code id="sha"></code> · <a id="rel" href="#" data-t="all_rel">All releases</a></p>
+  <ol class="steps"><li data-t="i1">Right-click the ZIP, choose <b>Extract All</b>.</li><li data-t="i2">Open the new folder and double-click <b>Ghost in the PC.exe</b>.</li><li data-t="i3">If Windows says "Unknown publisher": click <b>More info</b>, then <b>Run anyway</b>.</li></ol>
+  <p class="small" data-t="smart">Why that warning? The app is not code-signed (certificates cost money). It appears for most small free apps. You can check the SHA-256 above and read the full source on GitHub.</p>
+  <h3 data-t="req_h">Requirements</h3><p data-t="req_p">Windows 10/11 (64-bit), a microphone for voice, about 400 MB free disk. For Urdu speech add an Urdu voice in Windows Settings &rarr; Time &amp; language &rarr; Speech.</p></section>
+
+<section><h2 data-t="faq_h">FAQ</h2>
+  <details><summary data-t="q1">The ghost does not hear my claps.</summary><p data-t="a1">Open Settings → Fix problems → Mic test and raise Sensitivity. Check Windows Settings → Privacy → Microphone.</p></details>
+  <details><summary data-t="q2">It shows text but does not speak Urdu.</summary><p data-t="a2">Add an Urdu voice in Windows Settings → Time &amp; language → Speech. Without one the ghost shows text only.</p></details>
+  <details><summary data-t="q3">My antivirus complains.</summary><p data-t="a3">Unsigned apps sometimes get false alarms. The source is open and the app makes no network connections.</p></details>
+  <details><summary data-t="q4">How do I quit or uninstall?</summary><p data-t="a4">Tray icon → Quit. To uninstall, delete the folder (and the Desktop shortcut if you made one).</p></details></section>
+</main>
+<footer><p data-t="foot">MIT licence · Prank / entertainment app: use it on your own PC or with friends who are in on the joke.</p></footer>
+<script src="config.js"></script><script src="script.js"></script></body></html>
